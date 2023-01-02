@@ -1,0 +1,30 @@
+html{
+  scroll-snap-type: mandatory;
+}
+.app{
+  height: 100vh;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdhQV9TslCSnrwf_cLpJepcPv3PFGUv96RNg&usqp=CAU');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+.app__videos{
+
+position: relative;
+  height: 800px;
+  border-radius: 20px;
+  overflow: scroll;
+  width: 80%;
+  padding: 20px;
+  max-width: 500px;
+  scroll-snap-type: y mandatory;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  margin: 20px;
+}
+
+.app__videos ::-webkit-scrollbar{
+  display: none;
+}
+
